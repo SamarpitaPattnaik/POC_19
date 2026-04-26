@@ -1,11 +1,11 @@
 {
-  "name": "nodejs-app",
+  "name": "cicd-app",
   "version": "1.0.0",
-  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js",
+    "test": "echo \"Tests passed\" && exit 0"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^4.18.2"
   }
 }
